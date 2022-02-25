@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit-icons.min.js"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- awesome -->
+    <script src="https://kit.fontawesome.com/da1cb8e02b.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- banner and nav lap view -->
+    <div class="uk-section uk-preserve-color uk-padding-remove" style="background-image: url(./assets/home/banner.jpg);">
+
+        <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-nav; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 500;">
+    
+            <nav class="uk-navbar-nav">
+                <div class="uk-navbar-left">
+
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="">
+                                <img src="./assets/art logo.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+            
+                </div>
+            
+                <div class="uk-navbar-right">
+            
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="">
+                                <button>
+                                    <span>Apply</span>
+                                    <div class="liquid"></div>
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+            
+                </div>
+            </nav>
+        </div>
+    
+        <div class="uk-section uk-light uk-margin-xlarge-top">
+            <div class="uk-container">
+                <div class="uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
+                    <div class="uk-inline">
+                        <div class="text-block">
+                            <h4 class="uk-margin-small uk-text-center uk-text-bold" style="color: orangered;">
+                                <span><img src="https://img.icons8.com/external-those-icons-lineal-those-icons/32/000000/external-pin-maps-locations-those-icons-lineal-those-icons-7.png"/></span>Virtual Campus Tour
+                            </h4>
+
+                          </div>
+                          <!-- model -->
+                            <div id="modal-example" uk-modal>
+                                <div class="uk-modal-dialog uk-modal-body uk-padding-small">
+                                    <button class="uk-modal-close-outside uk-dark" type="button" uk-close></button>
+                                    <iframe width="570" height="330" src="https://www.youtube.com/embed/ShRgdESVCgg" uk-video="autoplay: inview" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        <div class="uk-card">
+                            <img src="./assets/image.jpg" alt="" style="border-radius: 25px;">
+                            <div class="uk-position-center uk-overlay">
+                                    <a class="cust-button button-blinking button-pulse" href="" uk-toggle="target: #modal-example">
+                                        <img src="./assets/youtube.png" alt="" width="40">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <!-- card -->
+    <div class="uk-section">
+        <div class="uk-container">
+            <div class="uk-text-center">
+                <h1 class="uk-text-capitalize uk-text-bold uk-text-center"><span class="" style="color: orangered;">Every achievement </span>big or small, <br>begins from your <span class="" style="color: orangered;">campus</span>.</h1>
+            </div>
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+                <div>
+                    <div class="box">
+                        <div class="our-services settings">
+                            <div class="icon"> 
+                                <img src="./assets/1 section/library.png" alt=""> </div>
+                            <h4 class="uk-margin-remove uk-text-bold">Global Library</h4>
+                            <p>RCAS Library is an epitome of unlimited knowledge. We facilitates a source of knowledge through specialized books.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="box">
+                        <div class="our-services speedup">
+                            <div class="icon">  
+                                <img src="./assets/1 section/club.png" alt="">
+                            </div>
+                            <h4 class="uk-margin-remove uk-text-bold">Student Clubs</h4>
+                            <p>Student clubs are vibrant with activities. we creates an opportunity to express their talents in various art forms.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="box">
+                        <div class="our-services privacy">
+                            <div class="icon"> 
+                                <img src="./assets/1 section/residence.png" alt="">    
+                            </div>
+                            <h4 class="uk-margin-remove uk-text-bold">Students Residences</h4>
+                            <p>Residence at RCAS replicates a perfect image of home. We provide an exact form of accommodation with a typical form of living. </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="box">
+                        <div class="our-services backups">
+                            <div class="icon"> 
+                                <img src="./assets/1 section/lab.png" alt="">
+                            </div>
+                            <h4 class="uk-margin-remove uk-text-bold">Effective Labs</h4>
+                            <p>RCAS has a well-equiped lab to make an effective learning of their concerned subjects.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="box">
+                        <div class="our-services ssl">
+                            <div class="icon"> 
+                                <img src="./assets/1 section/cafe.png" alt="">
+                            </div>
+                            <h4 class="uk-margin-remove uk-text-bold">Cafeteria</h4>
+                            <p>Cafeteria in RCAS is provided as an integral part to acclimatize college life.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="box">
+                        <div class="our-services database">
+                            <div class="icon"> 
+                                <img src="./assets/1 section/feet.png" alt="">
+                            </div>
+                            <h4 class="uk-margin-remove uk-text-bold">Sports & Fitness</h4>
+                            <p>Sports and fitness of RCAS access to improve fitness in both physically and emotionally for the students to stay healthy and active.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- stepper -->
+    <div class="uk-section uk-padding-small custom-stepper">
+        <div class="uk-container">
+            <h1 class="uk-text-center uk-text-bold uk-text-capitalize">how to apply <span class="" style="color:orangered">9 step process</span></h1>            
+            <ul class="timeline">
+
+                <!-- Item 1 -->
+                <li>
+                    <div class="direction-r">
+                        <div class="flag-wrapper">
+                            <span class="flag">Register Yourself</span>
+                            <span class="time-wrapper">
+                                <span class="time">Step 1</span>
+                            </span>
+                        </div>
+                        <div class="desc">Be with active mobile number and valid e-mail address. Register yourself with basic details.</div>
+                    </div>
+                </li>
+            
+                <!-- Item 2 -->
+                <li>
+                    <div class="direction-l">
+                        <div class="flag-wrapper">
+                            <span class="flag">Confirm via Mobile </span>
+                            <span class="time-wrapper">
+                                <span class="time">Step 2</span>
+                            </span>
+                        </div>
+                        <div class="desc">Confirmation message will reach your registered mobile with link. Also registration details shared to your mail. </div>
+                    </div>
+                </li>
+
+                <!-- Item 3 -->
+                <li>
+                    <div class="direction-r">
+                        <div class="flag-wrapper">
+                            <span class="flag">Fill your Application Form</span>
+                            <span class="time-wrapper">
+                                <span class="time">Step 3</span>
+                            </span>
+                        </div>
+                        <div class="desc">Start fills your application via the link shared to your active mobile number.</div>
+                    </div>
+                </li>
+                <!-- Item 4 -->
+                <li>
+                    <div class="direction-l">
+                        <div class="flag-wrapper">
+                            <span class="flag">Personal Details</span>
+                            <span class="time-wrapper">
+                                <span class="time">Step 4</span>
+                            </span>
+                        </div>
+                        <div class="desc">Enter all the relevant personal details carefully which are all requested in the application form.</div>
+                    </div>
+                </li>
+                <!-- Item 5 -->
+                <li>
+                    <div class="direction-r">
+                        <div class="flag-wrapper">
+                            <span class="flag">Academic Details</span>
+                            <span class="time-wrapper">
+                                <span class="time">Step 5</span>
+                            </span>
+                        </div>
+                        <div class="desc">Enter all the related academic details carefully that you know at form filling stage.</div>
+                    </div>
+                </li>
+                <!-- Item 6 -->
+                <li>
+                    <div class="direction-l">
+                        <div class="flag-wrapper">
+                            <span class="flag">Pay Application Fees</span>
+                            <span class="time-wrapper">
+                                <span class="time">Step 6</span>
+                            </span>
+                        </div>
+                        <div class="desc">Once after completing your applications, pay the applications fees Rs. 500/-. Keep ready with valid Net Banking Account / Credit / Debit Card details.</div>
+                    </div>
+                </li>
+                <!-- Item 7 -->
+                <li>
+                    <div class="direction-r">
+                        <div class="flag-wrapper">
+                            <span class="flag">Upload Your Document</span>
+                            <span class="time-wrapper">
+                                <span class="time">Step 7</span>
+                            </span>
+                        </div>
+                        <div class="desc">Once after paying the application fees you can start to upload your required documents.</div>
+                    </div>
+                </li>
+                <!-- Item 8 -->
+                <li>
+                    <div class="direction-l">
+                        <div class="flag-wrapper">
+                            <span class="flag">Pay Token Fees</span>
+                            <span class="time-wrapper">
+                                <span class="time">Step 8</span>
+                            </span>
+                        </div>
+                        <div class="desc">Pay your corresponded course fees. Keep ready with valid Net Banking Account / Credit / Debit Card details.</div>
+                    </div>
+                </li>
+                <!-- Item 9 -->
+                <li>
+                    <div class="direction-r">
+                        <div class="flag-wrapper">
+                            <span class="flag">Enroll Yourself</span>
+                            <span class="time-wrapper">
+                                <span class="time">Step 9</span>
+                            </span>
+                        </div>
+                        <div class="desc">Congratulations. All set. Your precious selection has been confirmed now.</div>
+                    </div>
+                </li>
+            </ul>
+                                            
+        </div>
+    </div>
+    <!-- orderlist -->
+    <div class="uk-section uk-padding-small">
+        <div class="uk-container"> 
+            <h1 class="uk-text-center uk-text-bold uk-text-capitalize"><span class="" style="color: orangered;">Everything</span> You Need To Know</h1>
+            <div>
+                <ol class="ol-cards alternate" >
+                    <li style="--ol-cards-color-accent:#505050">
+                        <div class="step"><i class="fab fa-codepen"></i></div>
+                        <div class="title">Step One</div>
+                        <div class="content">The online application is for the admission of Arts and Science programs which is offered by Rathinam College of Arts and Science, Coimbatore, Tamil Nadu.</div>
+                    </li>
+                    <li style="--ol-cards-color-accent:orangered">
+                        <div class="step"><i class="fab fa-github"></i></div>
+                        <div class="title">Step Two</div>
+                        <div class="content">Application Form Fee is Rs.500/- (SC/ST students are exempt for Application Fee) and it is Non-Refundable.</div>
+                    </li>
+                    <li style="--ol-cards-color-accent:#0098d9">
+                        <div class="step"><i class="fab fa-html5"></i></div>
+                        <div class="title">Step Three</div>
+                        <div class="content">Email and Contact used/submitted at the time of registration will be used for all communications until the completion process of enrolment. Change in Email Id and Contact will not be permitted under any circumstances till application submission.</div>
+                    </li>
+                    <li style="--ol-cards-color-accent:#a7bf45">
+                        <div class="step"><i class="fab fa-css3"></i></div>
+                        <div class="title">Step Four</div>
+                        <div class="content">The selected course in registration form is collected for statistical purpose only. The course selection would be finalized on the end day/counseling.</div>
+                    </li>
+                </ol>    
+            </div>
+        </div>
+    </div>
+    <!-- 2card -->
+    <div class="uk-section uk-padding-small" style="background-image: url('./assets/Animated\ Shape.svg'); background-size: cover; background-repeat: no-repeat;">
+        <div class="uk-container">
+            <h1 class="uk-text-center uk-text-bold uk-text-capitalize">Made Easy <span class="" style="color:orangered;">Application Fill</span></h1>
+            <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-large uk-card-body">
+                        <h3 class="uk-card-title uk-text-bold">Keep Ready with the documents</h3>
+                        <p><b>Photograph Image :</b> 3.5 cm X 4.5 cm, 1 MB</p>
+                        <p><b>Signature Image :</b> 3.5 cm X 1.5 cm, 1 MB</p>
+                        <p>Net banking | Credit Card | Debit card | UPI details</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-hover uk-card-large uk-card-body">
+                        <h3 class="uk-card-title uk-text-bold">For Any Assistance</h3>
+                        <p><b>Help Desk:</b><a href="tel:+91 84484 48909" style="color: #333;"> +91 84484 48909</a></p>
+                        <p>Monday – Saturday (<i>except public holidays</i>) 9:00 AM - 6:00 PM</p>
+                        <p><b>Email id :</b><a href="mailto:admission@rathinam.in" style="color:#333"> admission@rathinam.in</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- animation 3 card -->
+    <div class="uk-section uk-padding-small">
+        <div class="uk-container">
+            <div class="skills">
+                <div class="container">
+                    <div class="text">
+                        <h1 class="uk-text-bold"><span class="" style="color: orangered;">Key </span>Highlight</h1>
+                        <p>All our dreams can come true if we have the courage to pursue them.</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="card">
+                            <!-- <i class='fas fa-building'></i> -->
+                            <i class="fas fa-award"></i>
+                            <h4 class="">20+ COE</h4>
+                            <p>Exam related information / services for all the students of RCAS will be provided here.</p>
+                        </div>
+                        
+                        <div class="card">
+                            <i class="fas fa-trophy"></i>
+                            <h4 class="uk-text-capitalize">50+ Patent</h4>
+                            <p>To disseminate knowledge on patent registration process and to encourage our faculty and students work towards patent.</p>
+                        </div>
+                        <div class="card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4 class="uk-text-capitalize">60+ Doctorates</h4>
+                            <p>Highly qualified professors with recent teaching techniques define our educational system.</p>
+                        </div>
+                        <div class="card">
+                            <i class="far fa-building"></i>
+                            <h4 class="uk-text-capitalize">40+ IT Company within the campus</h4>
+                            <p>Our Campus Annexed with 40+ IT Tech Park. Assured placement opportunity for Our Students.</p>
+                        </div>
+                        <div class="card">
+                            <i class="fas fa-ribbon"></i>
+                            <h4 class="uk-text-capitalize">NIRF 5 years in <br>the row </h4>
+                            <p>Consecutively five years securing its place among Top 150 ranked Institutions in India by (NIRF), Ministry of Education, Govt. of India.</p>
+                        </div>  
+                        <div class="card">
+                            <i class="fas fa-university"></i>
+                            <h4 class="uk-text-capitalize">ARIIA - ranked 10<sup>th</sup> technical institute </h4>
+                            <p>RCAS is recognized in the band EXCELLENT in atal ranking of institutions on innovation achievement (ARIIA) 2021.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    <div class="uk-section uk-padding-small" style="background-image: url('./assets/Animated\ Shape.svg'); background-size: cover; background-repeat: no-repeat;">
+        <div class="">
+            <h1 class="uk-text-center uk-text-bold">Programs You <span class="" style="color:orangered;">Can Choose From</span></h1>
+            <div>
+                <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+                    <div>
+                        <div class="member member-1">
+                            <div class="member-image">
+                              <img src="https://doodleipsum.com/140x145/hand-drawn?bg=e13157&i=5c8453011df3db1051a6654c0bff4d07" alt="Member">
+                            </div>
+                            <div class="member-info">
+                                <h1>UG Course</h1>
+                                <h3 class="" style="color: orangered;">Rathinam College of Arts and Science</h3>
+                                <p>An ideal program to gain advanced learning with holistic approach</p>
+                                <h4>Duration: 3 years</h4>
+                                <div class="social-btn">
+                                    <a href="">
+                                        <button class="button1">
+                                            <span>Apply</span>
+                                            <div class="liquid"></div>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="member member-1">
+                            <div class="member-image">
+                              <img src="https://doodleipsum.com/140x145/hand-drawn?bg=e13157&i=5c8453011df3db1051a6654c0bff4d07" alt="Member">
+                            </div>
+                            <div class="member-info">
+                                <h1>PG Course</h1>
+                                <h3 class="" style="color: orangered;">Rathinam College of Arts and Science</h3>
+                                <p>An ideal program to gain advanced learning with holistic approach</p>
+                                <h4>Duration: 2 years</h4>
+                                <div class="social-btn">
+                                    <a href="">
+                                        <button class="button1">
+                                            <span>Apply</span>
+                                            <div class="liquid"></div>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="member member-1">
+                            <div class="member-image">
+                              <img src="https://doodleipsum.com/140x145/hand-drawn?bg=e13157&i=5c8453011df3db1051a6654c0bff4d07" alt="Member">
+                            </div>
+                            <div class="member-info">
+                                <h1>Diploma Course</h1>
+                                <h3 class="" style="color: orangered;">Rathinam College of Arts and Science</h3>
+                                <p>An ideal program to gain advanced learning with holistic approach</p>
+                                <h4>Duration: 3 years</h4>
+                                <div class="social-btn">
+                                    <a href="">
+                                        <button class="button1">
+                                            <span>Apply</span>
+                                            <div class="liquid"></div>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section uk-padding-small">
+        <div class="uk-container">
+            <div class="uk-margin-medium-top">
+                <h1 class="uk-text-center uk-align-center uk-text-capitalize uk-text-bold"><span class="" style="color: orangered;">Tie-ups</span> & Partners</h1>
+                <div class="uk-grid-small uk-margin-top uk-child-width-1-4@s uk-flex-center uk-text-center" uk-grid>
+                    <div>
+                        <div class="uk-card">
+                            <img src="./assets/placement/icon/Capgemini-removebg-preview.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="uk-flex-last">
+                        <div class="uk-card">
+                            <img src="./assets/placement/icon/chainsys-removebg-preview.webp" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card">
+                            <img src="./assets/placement/icon/Softcrylic-removebg-preview.webp" alt="">
+                        </div>
+                    </div>
+                  <div>
+                        <div class="uk-card">
+                            <img src="./assets/placement/icon/TCS-removebg-preview.webp" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card">
+                            <img src="./assets/placement/icon/Wipro-removebg-preview.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="uk-flex-first">
+                        <div class="uk-card">
+                            <img src="./assets/placement/icon/intellipaat-removebg-preview.webp" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card">
+                            <img src="./assets/placement/icon/Avasoft-removebg-preview.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- social media -->
+    <div class="uk-position-large uk-position-bottom-left uk-position-fixed uk-visible@m">
+        <div class="main">
+            <div class="top">
+                <a href="https://www.facebook.com/rathinamcollege" target='_blank'><div class="square one"></div></a>
+                <a href="https://twitter.com/rathinamgroups" target='_blank'><div class="square two"></div></a>
+            </div>
+             <div class="sign">
+                  <div class="line hor"></div>
+                  <div class="line ver"></div>
+            </div>
+            <div class="bottom">
+              <a href="https://www.instagram.com/rathinam_college" target='_blank'><div class="square three"></div></a>
+              <a href="https://www.linkedin.com/company/rathinam-group-of-institutions" target='_blank'><div class="square four"></div></a>
+            </div>
+            </div>
+    </div>
+    <div class="uk-position-large uk-margin-small-right">
+        <div class="uk-clearfix">
+            <div class="uk-float-right">
+                <div class="custom-square jump">
+                    <a href="#"uk-scroll>
+                        <img src="https://img.icons8.com/ios-filled/28/000000/up--v2.png"/>
+                    </a>
+                </div>
+            </div>
+            <div class="uk-float-left">
+            </div>
+        </div>
+        
+    </div>
+    <div class="uk-padding-small"style="background: #505050;">
+        <h6 class="uk-text-center uk-margin-remove uk-align-center" style="color:#ff5050;">2022 © Copyright. All Rights Reserved</h6>        
+    </div>
+</body>
+</html>
