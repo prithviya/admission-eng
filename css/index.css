@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 *
 {
   color: #333;
@@ -11,6 +13,9 @@ button {
   overflow: hidden;
   border-radius: 40px;
   border: none;
+  font-family: 'PT Serif', serif;
+  font-weight: 500;
+  font-size: 0.9rem;
   }
   .button1 {
     position: relative;
@@ -21,6 +26,8 @@ button {
     overflow: hidden;
     border-radius: 40px;
     border: none;
+    font-family: 'PT Serif', serif;
+  font-weight: 500;
     }
 button span {
   position: relative;
@@ -996,4 +1003,23 @@ background-color: #505050 ;
 {
   background: #87b049;
   color: #fff;
+}
+@font-face 
+{
+  font-family: Algerian;
+  src: url(../font/Algerian\ Regular.ttf);
+}
+.custom-head
+{
+  font-family: Algerian;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.custom-subtitle
+{
+  font-family: 'PT Serif', serif;
+}
+.custom-para
+{
+  font-family: 'Noto Serif', serif;
 }
