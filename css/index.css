@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 *
 {
   color: #333;
@@ -988,6 +988,14 @@ background-color: #505050 ;
 {
   font-family: Algerian;
   src: url(../font/Algerian\ Regular.ttf);
+}
+@font-face {
+  font-family: 'PT Serif';
+  src: url(../font/PTSerif-Regular.ttf);
+}
+@font-face {
+  font-family: 'Noto Serif';
+  src: url(../font/NotoSerif-Regular.ttf);
 }
 .custom-head
 {
